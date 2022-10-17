@@ -1,0 +1,168 @@
+Curriculum Vitae
+Roel Antonisse // UX / Front-end Developer
+Datum: 23-04-2021 Pagina: 1 van 4
+
+Persoonlijke gegevens
+Achternaam
+  Antonisse – Deul
+Voornaam
+  Roel
+Voorletters
+  RV
+Geboortedatum
+  06-06-1984
+Geboorteplaats
+  Haarlem
+Nationaliteit
+  Nederlandse
+Adres
+  Beatrixlaan 92
+  3721 XG BILTHOVEN
+
+Telefoonnummer
+  06–46375753
+
+E-mail adres
+  roel.antonisse@gmail.com
+
+Github profiel
+  https://github.com/rvantonisse
+
+LinkedIn profiel
+  https://nl.linkedin.com/in/rvantonisse
+
+===
+
+Werk ervaring
+
+Onderzoeker Digitale Toegankelijkheid
+Stichting Accessibility te Utrecht
+juni 2021 - heden
+
+Onderzoeken van toegankelijkheid op websites, webapplicaties en pdf documenten
+
+WCAG, WCAG-EM, Drempelvrij, EN 301 549, Toegankelijkheid, Klantcontact, Kennisdeling
+
+
+---
+
+Web Developer
+Stichting Accessibility te Utrecht
+2018 – heden
+
+Project met W3C: WAI Tools; Accessibility statement Generator, WCAG-EM Report Tool. Een driejarig traject waarbij ik in het 2e jaar ben aan geschoven voor het maken en vernieuwen van de tools binnen dit project.
+De Accessibility Statement Generator is een tool die organisaties moet helpen met het opstellen van een toegankelijkheidsverklaring voor haar website. Dit is op Europees niveau een eis voor (semi)overheden van de lidstaten naast het voldoen aan de web content toegankelijkheid richtlijnen (WCAG). Gemaakt binnen het w3c WAI website thema; Github Jekyll, HTML.Liquid, FrontMatter, CSS, JavaScript, Markdown.
+(Huidig project) De WCAG-EM Report Tool is een notitiemiddel naast een onderzoek of een website voldoet aan de WCAG aan de hand van de evaluatiemethode daarvoor. De tool is in het begin gebouwd met AngularJS (1.X) en ondersteund meertaligheid, compatibiliteit met oudere versies en het exporteren en openen van een JSON bestand met de evaluatiedata om tussentijds te kunnen opslaan. De vernieuwingsslag betreft een complete herbouw waarbij onderhoudbaarheid, schaalbaarheid en betrokkenheid vanuit de gebruikersgroep vergroot wordt. Gemaakt met HTML, PostCSS, JavaScript (ES6), JSON-LD (linked data).
+Naast deze projecten ben ik intern opgeleid in het doen van onderzoek naar toegankelijkheid binnen websites en web- applicaties aan de hand van de WCAG.
+
+---
+
+Web Application Developer
+Jouw Omgeving te Utrecht
+2016 – 2018
+32/40
+
+www.jouwomgeving.nl is een e-health platform voor het aanbieden van blended en transparante zorg. Met hoofdmodulen het dossier, berichten en diverse blended behandelprogramma’s gericht op jeugd- en cognitieve zorg (autisme, dyslexie, hersenletsel, licht verstandelijke beperking).
+Binnen Jouw omgeving ben ik werkzaam geweest aan het maken en onderhouden van de digitale behandelprogramma’s waaronder de Tom-e training (autisme), Skribbel (Dyslexie) en Hersenz modules. Beide programma’s zijn React applicaties. React, JSON(fixtures), Python Django.
+Naast de behandelprogramma’s heb ik aan kleinere front- end features gewerkt platform, waaronder het wachtwoord tonen feature en stijlen van foutmeldingspagina’s (40X, 50X). Een groter project was het toepassen van nieuwe stijlen met SASS. Python/Django Twig, Sass Compass.
+Daarnaast heb ik aan browser brede (IE / safari) gerelateerde (bug) oplossingen gewerkt zoals voor CSS flexbox en SVG afbeeldingen. Browser Stack testen, IE virtual machine.
+
+---
+
+Web Developer
+Jan – Mrt 2016
+Fairtrade gemeenten Utrecht
+Vrijwilliger
+
+Voor deze stichting heb ik tijdelijk het Technisch onderhoud voor de site gedaan. Wordpress onderhoud.
+
+---
+Front-end Web Developer
+Mei – juli 2013
+de Voorhoede Amsterdam
+Stagiair
+
+Onderzoek naar toegankelijkheid voor slechtzienden bij bezoek aan gemeentelijke websites. Gebruikerstests op 3 best getest gebruiksvriendelijke gemeente sites uit de top 100. Introductie WCAG, opzet front-end developer accessibility guidelines.
+
+---
+
+Administratief Medewerker
+Werk In Opdracht B.V. te Amsterdam
+2009 – 2010
+
+Werkzaamheden bestaande uit opnemen van telefoon, klantcontact, agendabeheer, financiële administratie (Facturatie, offertes).
+
+===
+
+Overige werk ervaring
+
+Ruim 10 jaar werkervaring als kok bij diverse horeca van de La Place tot ster niveau bij restaurant Vermeer te Amsterdam. Starters bijbaantjes als Bezorger bij de Telegraaf en Volkskrant, vakkenvuller bij de Albert Heijn.
+
+===
+
+Opleidingen & Cursussen
+
+---
+
+Onderzoeker digitale toegankelijkheid
+Stichting Accessibility
+2021
+
+Digitale producten beoordelen op toegankelijkheid aan de hand van de internationaal gestandaardiseerde toegankelijkheidsrichtlijnen WCAG 2.1
+
+---
+
+HBO Bachelor Communication and Multimedia Design
+Hogeschool van Amsterdam
+2012 – 2015
+
+Front-end development 1, 2 & 3, User centred design, Service Design, Interaction Design, Human Centred Interfaces, Vormgeving 1
+
+Stage bij de Voorhoede te Amsterdam (3 maanden)
+
+---
+
+Leermeester (Kok)
+SVH
+2011
+certificaat behaald
+
+Restaurant Buurten te Utrecht
+
+---
+
+HBO Bachelor Food Innovation Management (Voedingsmiddelen technologie)
+Hogeschool Van Hall Larenstein te Wageningen
+2007 – 2009
+
+Stage bij Geurts te Dodewaard (3 maanden), onderzoek naar ideale pasteurisatie proces van producten.
+
+---
+
+MBO Zelfstandig werkend Kok
+ROC van Amsterdam
+2005 - 2007
+
+Beroeps Begeleidende Leerweg
+Diploma behaald
+
+Restaurant Vermeer te Amsterdam
+Restaurant Muse-a-Muse te Hoofdorp
+
+---
+
+MBO Basis Kok
+ROC van Amsterdam
+2004 - 2005
+
+Beroeps Begeleidende Leerweg
+Diploma behaald
+
+The College Hotel te Amsterdam
+
+---
+
+VWO Natuur & Techniek & Gezondheid
+Da Vinci College te Purmerend,
+Lyceum Sancta Maria te Haarlem
+1997 - 2003

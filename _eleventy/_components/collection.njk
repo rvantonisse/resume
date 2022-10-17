@@ -1,0 +1,54 @@
+{% from "heading.njk" import heading %}
+
+{% macro collection(items = [], options = {}) %}
+
+    {# OPTIONS #}
+    {% set headingLevel = options.headingLevel | default(1) %}
+
+    <ul>
+        {% for item in items %}
+            {% set title = item.data.title | title %}
+            {% set employer = item.data.employer | title %}
+            {% set startDate = item.data.startDate %}
+            {% set endDate = item.data.endDate %}
+
+            {% set htmlContent = item.templateContent %}
+            <li>
+
+                {{ heading(title, headingLevel) }}
+                {% if employer %}
+                    <p>{{ employer }}</p>
+                {% endif %}
+                {% if startDate %}
+                    <time datetime="{{ startDate }}">{{ startDate | date }}</time>
+                {% endif %}
+
+                <span>tot en met</span>
+
+                {% if endDate %}
+                    <time datetime="{{ endDate }}">{{ endDate | date }}</time>
+                {% else %}
+                    <span>heden</span>
+                {% endif %}
+
+                <p>{{ htmlContent | safe }}</p>
+
+                {% for skillType, skillSet in item.data.skills %}
+                    {% if loop.first %}
+                        <ul>
+                    {% endif %}
+
+                    <li>{{ skillType }}
+                        {% for skill in skillSet %}
+                            <span>{{ skill }}</span>
+                        {% endfor %}
+                    </li>
+
+                    {% if loop.last %}
+                        </ul>
+                    {% endif %}
+                {% endfor %}
+            </li>
+        {% endfor %}
+    </ul>
+{% endmacro %}

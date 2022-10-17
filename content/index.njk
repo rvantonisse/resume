@@ -1,0 +1,82 @@
+---
+layout: base.layout.njk
+collectionOptions:
+    headingLevel: 3
+permalink: /
+---
+{% from "collection.njk" import collection %}
+
+{# vcard #}
+<header>
+    <div>
+        Roel <span>(R.V.)</span> Antonisse – Deul
+        <figure>
+            <img src="" alt="">
+            <figcaption>
+                <p>Portret van een blanke man. Korte blonde haren, blauwe ogen met een bril dragend.</p>
+            </figcaption>
+        </figure>
+    </div>
+
+    <dl>
+        <div>
+            <dt>Geboortedatum</dt>
+            <dd>06-06-1984</dd>
+        </div>
+        <div>
+            <dt>Geboorteplaats</dt>
+            <dd>Haarlem, Nederland</dd>
+        </div>
+        <div>
+            <dt>Nationaliteit</dt>
+            <dd>Nederlandse</dd>
+        </div>
+        <div>
+            <dt>Woonplaats</dt>
+            <dd>Utrecht, Nederland</dd>
+        </div>
+    </dl>
+</header>
+
+{# Summary #}
+<section>
+    <p>
+        Het ontwikkelen van <strong>gebruikers ervaringen</strong> en <strong>interactie</strong> voor <strong>het Web</strong> is mijn vak.
+        Ik heb mij gespecialiseerd in het digitaal toegankelijk maken van websites en webapplicaties.
+        Dit heb ik recentelijk gedaan bij de ontwikkeling van project {{ "LATEST_PROJECT.NAME" }} als {{ "LATEST_PROJECT.ROLE" }}.
+    </p>
+
+    <p>Opdrachten waar ik <strong>graag</strong> aan werk:</p>
+    <ul>
+        <li>Optimaliseren van HTML, CSS en JavaScript, ter verbetering van toegankelijkheid en gebruiksvriendelijkheid.</li>
+        <li>Opzetten of optimaliseren van een Ontwerp Systeem en / of componenten verzameling. OF ookwel het aanbrengen van consistentie en bevordering van bruikbaarheid.</li>
+        <li>Inrichten van en adviseren over code kwaliteit systemen. Om snel fouten te vinden en voorkomen en het vergroten van de leesbaarheid van code.</li>
+        <li>Bouwen van een toegankelijke webapplicatie en werken aan de interface en component structuren, stijlen en functie (het uiterlijk). Eventueel met een JavaScript library of zonder.</li>
+        <li>Duurzame projecten. 1 project met volledige aandacht aanpakken.</li>
+    </ul>
+
+    <p>Hier hoef je mij <strong>niet</strong> voor te vragen:</p>
+
+    <ul>
+        <li>Back-end, ookwel server side, Development. Hieronder vallend: server inrichting, database communicatie, programmeren van een API</li>
+        <li>Het synchroon werken aan meerdere projecten (3 en meer) tegelijkertijd op dagelijkse, wekelijks ritme.</li>
+        <li>Werken aan producten met als hoofddoel financieel gewin en bevordering van economische groei.</li>
+    </ul>
+
+</section>
+{# Statistics / Skill overview #}
+
+{% if roles %}
+    <h2>Werkervaring</h2>
+    {{ collection(roles, collectionOptions) }}
+{% endif %}
+
+{% if educations %}
+    <h2>Opleidingen</h2>
+    {{ collection(educations, collectionOptions)}}
+{% endif %}
+
+{% if projects %}
+    <h2>Projecten</h2>
+    {{ collection(projects, collectionOptions)}}
+{% endif %}

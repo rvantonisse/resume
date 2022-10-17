@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="nl" dir="ltr">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Resume Roel Antonisse, UIX Web Engineer</title>
+
+        <style>
+            :root {
+                --color-text: #321;
+                --color-link: #06c;
+                --color-background: #ffe;
+                --color-highlight: #def;
+            }
+
+            @media (prefers-color-scheme: dark) {
+                :root {
+                    --color-text: #eed;
+                    --color-link: #69f;
+                    --color-background: #321;
+                    --color-highlight: #123;
+                }
+            }
+
+            * {
+                box-sizing: border-box;
+            }
+
+            html,
+            body,
+            main {
+                margin: 0;
+                padding: 0;
+            }
+
+            body {
+                font-family: "system-ui", "sans serif";
+                color: var(--color-text);
+                background-color: var(--color-background);
+                line-height: 1.25;
+                letter-spacing: 0.05em;
+                word-spacing: 0.1em;
+            }
+
+            main > header {
+                background-color: var(--color-highlight);
+            }
+
+            a[href] {
+                color: var(--color-link);
+                text-underline-offset: 5px;
+            }
+
+            summary {
+                cursor: pointer;
+            }
+
+            summary > * {
+                display: inline-block;
+            }
+
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6,
+            p {
+                padding-inline: 0.5rem;
+            }
+
+            p,
+            ul,
+            ol,
+            blockquote,
+            :not(:last-child) {
+                margin-bottom: 2rem;
+                margin-block-end: 2rem;
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            {% block content %}
+                {{ content | safe }}
+            {% endblock %}
+        </main>
+    </body>
+</html>

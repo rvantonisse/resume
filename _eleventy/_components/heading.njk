@@ -1,0 +1,7 @@
+{% macro heading(content, level=1) %}
+    {% set headingHTML %}
+        <h{{- level -}}>{{ content | safe }}</h{{- level -}}>
+    {% endset %}
+
+    {{ headingHTML | safe }}
+{% endmacro %}
