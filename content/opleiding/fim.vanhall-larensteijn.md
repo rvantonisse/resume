@@ -1,6 +1,6 @@
 ---
 title: Food Innovation Management
-employer: HBO Van Hall Larenstijn
+employer: Hogeschool Van Hall Larenstijn
 startDate: 2007-09-03
 endDate: 2009-09-30
 ---
