@@ -4,14 +4,6 @@ title: "WAI Tools"
 employer: Accessibility
 date_start: 2018-10-01
 date_end: 2021-02-28
-skillset:
-    - Nodejs
-    - Svelte
-    - JSON-LD
-    - EARL (Evaluation and Reporting Language)
-    - JavaScript
-
 ---
 
-Technische ondersteuning.
-Verantwoordelijk voor test scripts.
+Het WAI-Tools project.
