@@ -38,33 +38,14 @@ permalink: /
     </dl>
 </header>
 
-{# Summary #}
-<section>
-    <p>
-        Het ontwikkelen van <strong>gebruikers ervaringen</strong> en <strong>interactie</strong> voor <strong>het Web</strong> is mijn vak.
-        Ik heb mij gespecialiseerd in het digitaal toegankelijk maken van websites en webapplicaties.
-        Dit heb ik recentelijk gedaan bij de ontwikkeling van project {{ "LATEST_PROJECT.NAME" }} als {{ "LATEST_PROJECT.ROLE" }}.
-    </p>
-
-    <p>Opdrachten waar ik <strong>graag</strong> aan werk:</p>
-    <ul>
-        <li>Optimaliseren van HTML, CSS en JavaScript, ter verbetering van toegankelijkheid en gebruiksvriendelijkheid.</li>
-        <li>Opzetten of optimaliseren van een Ontwerp Systeem en / of componenten verzameling. OF ookwel het aanbrengen van consistentie en bevordering van bruikbaarheid.</li>
-        <li>Inrichten van en adviseren over code kwaliteit systemen. Om snel fouten te vinden en voorkomen en het vergroten van de leesbaarheid van code.</li>
-        <li>Bouwen van een toegankelijke webapplicatie en werken aan de interface en component structuren, stijlen en functie (het uiterlijk). Eventueel met een JavaScript library of zonder.</li>
-        <li>Duurzame projecten. 1 project met volledige aandacht aanpakken.</li>
-    </ul>
-
-    <p>Hier hoef je mij <strong>niet</strong> voor te vragen:</p>
-
-    <ul>
-        <li>Back-end, ookwel server side, Development. Hieronder vallend: server inrichting, database communicatie, programmeren van een API</li>
-        <li>Het synchroon werken aan meerdere projecten (3 en meer) tegelijkertijd op dagelijkse, wekelijks ritme.</li>
-        <li>Werken aan producten met als hoofddoel financieel gewin en bevordering van economische groei.</li>
-    </ul>
-
-</section>
-{# Statistics / Skill overview #}
+{# Introduction #}
+{% if introduction %}
+    <section>
+        {% for page in introduction %}
+            {{ page.templateContent | safe }}
+        {% endfor %}
+    </section>
+{% endif %}
 
 {% if roles %}
     <h2>Werkervaring</h2>

@@ -15,7 +15,7 @@ const CONFIG = {
     },
 };
 
-console.dir(CONFIG)
+// console.dir(CONFIG);
 
 function sortByStartDate(a, b) {
     const startDateA = a.data.startDate;
@@ -29,6 +29,16 @@ function sortByStartDate(a, b) {
 }
 
 module.exports = function (eleventyConfig) {
+    // Add basic info pages
+    ["introduction"].forEach(function addCollections(collectionName) {
+        eleventyConfig.addCollection(
+            collectionName,
+            function filteredByCollectionName(collectionAPI) {
+                return collectionAPI.getFilteredByTag(collectionName);
+            }
+        );
+    });
+
     // Add special employers collection with metadata added
     eleventyConfig.addCollection("employers", function (collectionApi) {
         const collection = collectionApi.getAll();
