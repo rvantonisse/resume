@@ -20,7 +20,7 @@ skillset:
 
 ---
 
-Een web applicatie voor evaluatie van digitale toegankelijkheid en basis rapportage. Gemaakt op basis van de Evaluatie Methodologie voor de richtlijnen van toegankelijke webcontent.
+Een web applicatie voor evaluatie van digitale toegankelijkheid en basis rapportage. Gemaakt op basis van de Evaluatie Methodologie voor de richtlijnen van toegankelijke webcontent. Werkzaamheden aan dit project zijn gedaan onder het WAI-Tools project.
 
 Huidige versie online: [https://www.w3.org/WAI/eval/report-tool/](https://www.w3.org/WAI/eval/report-tool/) (Svelte).
 
